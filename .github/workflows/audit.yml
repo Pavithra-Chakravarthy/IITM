@@ -1,0 +1,17 @@
+```yaml
+name: Secure Audit Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 24f2005798@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+```
