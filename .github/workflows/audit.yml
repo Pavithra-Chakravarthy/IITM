@@ -1,4 +1,3 @@
-```yaml
 name: Secure Audit Workflow
 
 on:
@@ -14,4 +13,3 @@ jobs:
 
       - name: 24f2005798@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-```
